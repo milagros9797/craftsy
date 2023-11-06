@@ -39,6 +39,12 @@ body {
   box-shadow: 5px 5px 5px #c0c0c0;
   border-radius: 5px;
 }
+
+.box__card--title {
+  margin-bottom: 30px;
+  text-align: end;
+}
+
 .link {
   color: var(--colorRojo);
 }
