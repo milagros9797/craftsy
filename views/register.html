@@ -33,7 +33,7 @@
       </nav>
     </header>
     <main class="register__main">
-      <section class="box__card">
+      <section class="box__card box__card--simple">
         <div class="box__card--title">
           <h3>Registro</h3>
           <hr>
@@ -48,6 +48,7 @@
               placeholder="Escribí tu nombre"
               name="name"
             />
+            <small class="form__msg-error">El nombre es obligatorio</small>
           </div>
           <div class="form__box">
             <label for="form__label" form="surname">Apellido</label>
@@ -55,9 +56,10 @@
               class="form__input"
               id="surname"
               type="text"
-              placeholder="Escribí tu nombre"
+              placeholder="Escribí tu apellido"
               name="surname"
             />
+            <small class="form__msg-error">El apellido es obligatorio</small>
           </div>
           <div class="form__box">
             <label for="form__label" form="email">Email</label>
